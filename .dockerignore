@@ -1,0 +1,9 @@
+.env
+data/
+shots/
+ego/
+__pycache__/
+*.pyc
+.venv/
+tests/
+.git/

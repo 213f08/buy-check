@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 密钥与本地数据（绝不提交）
+.env
+data/
+
+# 截图与临时产物
+shots/
+ego/
+
+# 编辑器
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+services:
+  buycheck:
+    build: .
+    ports:
+      - "8010:8010"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data   # 额度计数持久化
+    restart: unless-stopped
